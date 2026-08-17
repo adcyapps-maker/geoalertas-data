@@ -1,0 +1,386 @@
+{
+  "version": "2025-08-16",
+  "ciudades": [
+    {
+      "id": "bogota",
+      "nombre": "Bogotá",
+      "activo": true,
+      "centro": { "lat": 4.6097, "lng": -74.0817 },
+      "radio_metros": 18000,
+      "decreto": "Decreto 190/2024",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["06:00","09:00"], ["15:00","20:00"]],
+          "descripcion": "Placas 1,2,3,4 no circulan lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["06:00","09:00"], ["15:00","20:00"]],
+          "descripcion": "Placas 5,6,7,8 no circulan miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["06:00","09:00"], ["15:00","20:00"]],
+          "descripcion": "Placas 9,0 no circulan viernes"
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["05:30","09:30"], ["14:00","20:00"]],
+          "descripcion": "Taxis placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["05:30","09:30"], ["14:00","20:00"]],
+          "descripcion": "Taxis placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["05:30","09:30"], ["14:00","20:00"]],
+          "descripcion": "Taxis placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["15:00","20:00"]],
+          "descripcion": "Motos sin circulación en horas pico todos los días hábiles"
+        },
+        {
+          "tipo_vehiculo": "CARGA_PESADA",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["15:00","21:00"]],
+          "descripcion": "Carga pesada restringida en horas pico días hábiles"
+        },
+        {
+          "tipo_vehiculo": "CARGA_LIVIANA",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["07:00","09:00"], ["16:00","19:00"]],
+          "descripcion": "Carga liviana restringida en horas pico días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "medellin",
+      "nombre": "Medellín",
+      "activo": true,
+      "centro": { "lat": 6.2442, "lng": -75.5812 },
+      "radio_metros": 12000,
+      "decreto": "Decreto 1170/2024",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["07:00","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["07:00","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["07:00","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","08:00"], ["17:00","20:00"]],
+          "descripcion": "Motos en horas pico todos los días hábiles"
+        },
+        {
+          "tipo_vehiculo": "CARGA_PESADA",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["16:00","20:00"]],
+          "descripcion": "Carga pesada en horas pico días hábiles"
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [1, 3, 5, 7, 9],
+          "ventanas": [["06:00","08:30"], ["17:00","20:00"]],
+          "descripcion": "Taxis dígitos impares — horas pico días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "cali",
+      "nombre": "Cali",
+      "activo": true,
+      "centro": { "lat": 3.4516, "lng": -76.5320 },
+      "radio_metros": 12000,
+      "decreto": "Decreto 411.0.20.0780/2023",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["07:00","09:00"], ["16:00","19:00"]],
+          "descripcion": "Placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["07:00","09:00"], ["16:00","19:00"]],
+          "descripcion": "Placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["07:00","09:00"], ["16:00","19:00"]],
+          "descripcion": "Placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["16:00","20:00"]],
+          "descripcion": "Motos en horas pico todos los días hábiles"
+        },
+        {
+          "tipo_vehiculo": "CARGA_PESADA",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["16:00","20:00"]],
+          "descripcion": "Carga pesada en horas pico días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "bucaramanga",
+      "nombre": "Bucaramanga",
+      "activo": true,
+      "centro": { "lat": 7.1193, "lng": -73.1227 },
+      "radio_metros": 8000,
+      "decreto": "Decreto 0244/2023 AMB",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["06:30","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["06:30","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["06:30","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","08:00"], ["17:00","20:00"]],
+          "descripcion": "Motos en horas pico días hábiles"
+        },
+        {
+          "tipo_vehiculo": "CARGA_PESADA",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","08:30"], ["17:00","20:00"]],
+          "descripcion": "Carga pesada en horas pico días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "ibague",
+      "nombre": "Ibagué",
+      "activo": true,
+      "centro": { "lat": 4.4389, "lng": -75.2322 },
+      "radio_metros": 7000,
+      "decreto": "Decreto 0872/2023",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["07:00","09:00"], ["17:00","19:00"]],
+          "descripcion": "Placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["07:00","09:00"], ["17:00","19:00"]],
+          "descripcion": "Placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["07:00","09:00"], ["17:00","19:00"]],
+          "descripcion": "Placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["16:00","19:00"]],
+          "descripcion": "Motos en horas pico días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "cucuta",
+      "nombre": "Cúcuta",
+      "activo": true,
+      "centro": { "lat": 7.8939, "lng": -72.5078 },
+      "radio_metros": 8000,
+      "decreto": "Decreto 0406/2023",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["06:30","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["06:30","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["06:30","08:30"], ["17:00","19:30"]],
+          "descripcion": "Placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","08:00"], ["17:00","20:00"]],
+          "descripcion": "Motos en horas pico días hábiles"
+        },
+        {
+          "tipo_vehiculo": "CARGA_PESADA",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["17:00","21:00"]],
+          "descripcion": "Carga pesada en horas pico días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "pasto",
+      "nombre": "Pasto",
+      "activo": true,
+      "centro": { "lat": 1.2136, "lng": -77.2811 },
+      "radio_metros": 6000,
+      "decreto": "Decreto 0312/2023",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["07:00","09:00"], ["17:00","19:30"]],
+          "descripcion": "Placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["07:00","09:00"], ["17:00","19:30"]],
+          "descripcion": "Placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["07:00","09:00"], ["17:00","19:30"]],
+          "descripcion": "Placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["17:00","20:00"]],
+          "descripcion": "Motos en horas pico días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "manizales",
+      "nombre": "Manizales",
+      "activo": true,
+      "centro": { "lat": 5.0703, "lng": -75.5138 },
+      "radio_metros": 6000,
+      "decreto": "Decreto 0617/2023",
+      "restricciones": [
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [1, 2],
+          "digitos": [1, 2, 3, 4],
+          "ventanas": [["07:00","09:00"], ["17:00","19:00"]],
+          "descripcion": "Placas 1,2,3,4 — lunes y martes"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [3, 4],
+          "digitos": [5, 6, 7, 8],
+          "ventanas": [["07:00","09:00"], ["17:00","19:00"]],
+          "descripcion": "Placas 5,6,7,8 — miércoles y jueves"
+        },
+        {
+          "tipo_vehiculo": "PARTICULAR",
+          "dias": [5],
+          "digitos": [9, 0],
+          "ventanas": [["07:00","09:00"], ["17:00","19:00"]],
+          "descripcion": "Placas 9,0 — viernes"
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","08:30"], ["17:00","19:30"]],
+          "descripcion": "Motos en horas pico días hábiles"
+        },
+        {
+          "tipo_vehiculo": "CARGA_PESADA",
+          "dias": [1, 2, 3, 4, 5],
+          "digitos": [],
+          "ventanas": [["06:00","09:00"], ["17:00","20:00"]],
+          "descripcion": "Carga pesada en horas pico días hábiles"
+        }
+      ]
+    }
+  ]
+}
