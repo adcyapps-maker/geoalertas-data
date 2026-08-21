@@ -1,5 +1,5 @@
 {
-  "version": "2025-08-16-v2",
+  "version": "2026-08-21-v1",
   "ciudades": [
     {
       "id": "bogota",
@@ -15,8 +15,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -39,8 +38,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -66,8 +64,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -84,8 +81,7 @@
         {
           "tipo_vehiculo": "TAXI",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -108,8 +104,7 @@
         {
           "tipo_vehiculo": "TAXI",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -135,8 +130,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -232,8 +226,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -256,8 +249,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -283,8 +275,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -386,8 +377,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -410,8 +400,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -437,8 +426,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -512,8 +500,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -536,8 +523,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -563,8 +549,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -638,8 +623,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -662,8 +646,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -689,8 +672,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -742,8 +724,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -766,8 +747,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -793,8 +773,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -868,8 +847,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -892,8 +870,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -919,8 +896,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -972,8 +948,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            2
+            1
           ],
           "digitos": [
             1,
@@ -996,8 +971,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            3,
-            4
+            3
           ],
           "digitos": [
             5,
@@ -1023,8 +997,7 @@
             5
           ],
           "digitos": [
-            9,
-            0
+            9
           ],
           "ventanas": [
             [
@@ -1094,14 +1067,12 @@
       },
       "radio_metros": 30000,
       "decreto": "Decreto 002/2025 Alcaldía Mayor de Bogotá",
-      "nota": "Aplica solo el último día de puentes festivos (lunes o domingo de retorno). Sin restricción antes de las 12:00 m ni después de las 20:00.",
       "solo_festivos": true,
       "restricciones": [
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            7
+            1
           ],
           "digitos": [
             0,
@@ -1121,8 +1092,7 @@
         {
           "tipo_vehiculo": "PARTICULAR",
           "dias": [
-            1,
-            7
+            1
           ],
           "digitos": [
             1,
@@ -1142,8 +1112,7 @@
         {
           "tipo_vehiculo": "TAXI",
           "dias": [
-            1,
-            7
+            1
           ],
           "digitos": [
             0,
@@ -1163,8 +1132,7 @@
         {
           "tipo_vehiculo": "TAXI",
           "dias": [
-            1,
-            7
+            1
           ],
           "digitos": [
             1,
@@ -1184,8 +1152,7 @@
         {
           "tipo_vehiculo": "MOTO",
           "dias": [
-            1,
-            7
+            1
           ],
           "digitos": [],
           "ventanas": [
@@ -1199,8 +1166,7 @@
         {
           "tipo_vehiculo": "CARGA_PESADA",
           "dias": [
-            1,
-            7
+            1
           ],
           "digitos": [],
           "ventanas": [
@@ -1214,8 +1180,7 @@
         {
           "tipo_vehiculo": "CARGA_LIVIANA",
           "dias": [
-            1,
-            7
+            1
           ],
           "digitos": [],
           "ventanas": [
