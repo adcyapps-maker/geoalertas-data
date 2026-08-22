@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-01:42-v1",
+  "version": "2026-08-22-02:09-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -134,7 +134,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "Para el ingreso a Bogotá desde los municipios de Cundinamarca aplica los días de cierre de puente festivo NO circulan placas 2, 4, 6, 8, 0 de 16:00 a 20:00\n La restricción aplica en las nueve entradas principales a la capital, incluyendo Autopista Norte, Autopista Sur, Calle 13, Calle 80, Carrera Séptima, Avenida Boyacá, Vía Suba-Cota, Vía a La Calera y Vía a Choachí."
+          "descripcion": "Para el ingreso a Bogotá desde los municipios de Cundinamarca aplica los días de cierre de puente festivo NO circulan placas 2, 4, 6, 8, 0 de 16:00 a 20:00"
         }
       ]
     },
