@@ -27,23 +27,13 @@
       "excepciones": [],
       "restricciones": [
         {
-          "tipo_vehiculo": "PARTICULAR",
+          "tipo_vehiculo": "CARRO",
           "dias": [
+            1,
             2,
+            3,
             4,
-            6,
-            8,
-            10,
-            12,
-            14,
-            16,
-            18,
-            20,
-            22,
-            24,
-            26,
-            28,
-            30
+            5
           ],
           "digitos": [
             1,
