@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-02:46-v1",
+  "version": "2026-08-22-02:51-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -28,7 +28,7 @@
       "comentario": "Lunes a Viernes de 06:00 a 21:00",
       "restricciones": [
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "impar",
           "dias": [
             1,
@@ -53,7 +53,7 @@
           "descripcion": "Fecha IMPAR NO circulan placas terminadas en 6, 7, 8, 9, 0"
         },
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "par",
           "dias": [
             1,
@@ -95,7 +95,7 @@
       "comentario": "Para el ingreso a Bogotá desde los municipios de Cundinamarca aplica los días de cierre de puente festivo, La restricción aplica en las nueve entradas principales a la capital, incluyendo Autopista Norte, Autopista Sur, Calle 13, Calle 80, Carrera Séptima, Avenida Boyacá, Vía Suba-Cota, Vía a La Calera y Vía a Choachí.",
       "restricciones": [
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "impar",
           "dias": [
             1
@@ -116,7 +116,7 @@
           "descripcion": "NO circulan placas terminadas en 1, 3, 5, 7, 9"
         },
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "par",
           "dias": [
             1
@@ -154,7 +154,7 @@
       "comentario": "Lunes a Viernes de 06:00 a 21:00",
       "restricciones": [
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "lunes",
           "dias": [
             1
@@ -169,10 +169,10 @@
               "20:00"
             ]
           ],
-          "descripcion": "Dia Lunes NO circulan placas terminadas en 5, 8 CARROS"
+          "descripcion": "Dia Lunes NO circulan placas terminadas en 5, 8 CARRO PARTICULAR"
         },
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "martes",
           "dias": [
             2
@@ -187,10 +187,10 @@
               "20:00"
             ]
           ],
-          "descripcion": "Dia Martes NO circulan placas terminadas en 1, 4 CARROS"
+          "descripcion": "Dia Martes NO circulan placas terminadas en 1, 4 CARRO PARTICULAR"
         },
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "miercoles",
           "dias": [
             3
@@ -205,10 +205,10 @@
               "20:00"
             ]
           ],
-          "descripcion": "Dia Miercoles NO circulan placas terminadas en 0, 2 CARROS"
+          "descripcion": "Dia Miercoles NO circulan placas terminadas en 0, 2 CARRO PARTICULAR"
         },
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "jueves",
           "dias": [
             4
@@ -223,10 +223,10 @@
               "20:00"
             ]
           ],
-          "descripcion": "Dia Jueves NO circulan placas terminadas en 3, 6 CARROS"
+          "descripcion": "Dia Jueves NO circulan placas terminadas en 3, 6 CARRO PARTICULAR"
         },
         {
-          "tipo_vehiculo": "CARRO PARTICULAR",
+          "tipo_vehiculo": "CARRO_PARTICULAR",
           "tipo_dia": "viernes",
           "dias": [
             5
@@ -241,7 +241,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "Dia Viernes NO circulan placas terminadas en 7, 9 CARROS"
+          "descripcion": "Dia Viernes NO circulan placas terminadas en 7, 9 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "MOTO",
