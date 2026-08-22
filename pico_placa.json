@@ -27,7 +27,7 @@
       "excepciones": [],
       "restricciones": [
         {
-          "tipo_vehiculo": "MOTO",
+          "tipo_vehiculo": "PARTICULAR",
           "dias": [
             1,
             2,
