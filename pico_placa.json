@@ -17,8 +17,8 @@
       "nombre": "Bogotá",
       "activo": true,
       "centro": {
-        "lat": null,
-        "lng": -740817
+        "lat": 4.6097,
+        "lng": -74.0817
       },
       "radio_metros": 50000,
       "margen_proximidad_metros": 500,
@@ -40,7 +40,8 @@
             6,
             7,
             8,
-            9
+            9,
+            0
           ],
           "ventanas": [
             [
@@ -48,7 +49,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha impar NO circulan placas 6, 7, 8, 9 y 0"
+          "descripcion": "Fecha impar NO circulan placas 6, 7, 8, 9, 0"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -64,7 +65,8 @@
             1,
             2,
             3,
-            4
+            4,
+            5
           ],
           "ventanas": [
             [
@@ -72,7 +74,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha par NO circulan placas 1, 2, 3, 4 y 5"
+          "descripcion": "Fecha par NO circulan placas 1, 2, 3, 4, 5"
         }
       ]
     }
