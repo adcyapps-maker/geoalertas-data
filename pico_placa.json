@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-00:06-v1",
+  "version": "2026-08-22-00:12-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -95,7 +95,7 @@
               "12:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 1, 2, 3, 4, 5 los sabados"
+          "descripcion": "Fecha PAR NO circulan placas 1, 2, 3, 4, 5 los sabados carros que no esten matriculados en Bogota"
         }
       ]
     }
