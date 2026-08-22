@@ -44,12 +44,12 @@
           ],
           "ventanas": [
             [
-              "Sat Dec 30 1899 06:00:00 GMT-0456 (hora estándar de Colombia)",
-              "Sat Dec 30 1899 08:30:00 GMT-0456 (hora estándar de Colombia)"
+              "6:00",
+              "12:00"
             ],
             [
-              "Sat Dec 30 1899 15:00:00 GMT-0456 (hora estándar de Colombia)",
-              "Sat Dec 30 1899 19:30:00 GMT-0456 (hora estándar de Colombia)"
+              "12:00",
+              "21:00"
             ]
           ],
           "descripcion": "Lunes y martes dígitos 1 y 2"
