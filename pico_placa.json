@@ -27,7 +27,7 @@
       "excepciones": [],
       "restricciones": [
         {
-          "tipo_vehiculo": "CARRO",
+          "tipo_vehiculo": "TAXI",
           "dias": [
             1,
             2,
