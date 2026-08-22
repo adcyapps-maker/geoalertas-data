@@ -48,7 +48,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha impar NO circulan placas 6,7,8,9 y 0"
+          "descripcion": "Fecha impar NO circulan placas 6, 7, 8, 9 y 0"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -72,7 +72,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha par NO circulan placas 1,2,3,4 y 5"
+          "descripcion": "Fecha par NO circulan placas 1, 2, 3, 4 y 5"
         }
       ]
     }
