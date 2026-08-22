@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-02:12-v1",
+  "version": "2026-08-22-02:18-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -25,7 +25,7 @@
       "decreto": "Decreto 190/2019",
       "solo_festivos": false,
       "excepciones": [],
-      "comentario": "",
+      "comentario": "Lunes a Viernes de 06:00 a 21:00",
       "restricciones": [
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -50,7 +50,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha IMPAR NO circulan placas 6, 7, 8, 9, 0 de lunes a viernes"
+          "descripcion": "Fecha IMPAR NO circulan placas 6, 7, 8, 9, 0"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -75,7 +75,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 1, 2, 3, 4, 5 de lunes a viernes"
+          "descripcion": "Fecha PAR NO circulan placas 1, 2, 3, 4, 5"
         }
       ]
     },
