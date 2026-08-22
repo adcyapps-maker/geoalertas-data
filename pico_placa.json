@@ -46,6 +46,10 @@
             [
               "6:00",
               "21:00"
+            ],
+            [
+              "-",
+              "-"
             ]
           ],
           "descripcion": "Lunes y martes dígitos 1 y 2"
