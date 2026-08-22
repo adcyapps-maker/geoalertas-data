@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-02:36-v1",
+  "version": "2026-08-22-02:37-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -169,7 +169,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 5, 8"
+          "descripcion": "Fecha PAR NO circulan placas 5, 8 Carros y Motos"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -187,7 +187,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 1, 4"
+          "descripcion": "Fecha PAR NO circulan placas 1, 4 Carros y Motos"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -205,7 +205,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 0, 2"
+          "descripcion": "Fecha PAR NO circulan placas 0, 2 Carros y Motos"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -223,7 +223,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 3, 6"
+          "descripcion": "Fecha PAR NO circulan placas 3, 6 Carros y Motos"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -241,7 +241,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 7, 9"
+          "descripcion": "Fecha PAR NO circulan placas 7, 9 Carros y Motos"
         },
         {
           "tipo_vehiculo": "MOTO",
