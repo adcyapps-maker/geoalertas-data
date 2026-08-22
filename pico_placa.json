@@ -49,8 +49,7 @@
             1,
             2,
             3,
-            4,
-            5
+            4
           ],
           "ventanas": [
             [
@@ -58,35 +57,11 @@
               "Sat Dec 30 1899 21:00:00 GMT-0456 (hora estándar de Colombia)"
             ],
             [
-              "0",
-              "0"
+              "Sat Dec 30 1899 06:00:00 GMT-0456 (hora estándar de Colombia)",
+              "Sat Dec 30 1899 21:00:00 GMT-0456 (hora estándar de Colombia)"
             ]
           ],
           "descripcion": "Dias Pares no transita ese grupo"
-        },
-        {
-          "tipo_vehiculo": "PARTICULAR",
-          "dias": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "digitos": [
-            1
-          ],
-          "ventanas": [
-            [
-              "Sat Dec 30 1899 06:00:00 GMT-0456 (hora estándar de Colombia)",
-              "Sat Dec 30 1899 08:30:00 GMT-0456 (hora estándar de Colombia)"
-            ],
-            [
-              "Sat Dec 30 1899 15:00:00 GMT-0456 (hora estándar de Colombia)",
-              "Sat Dec 30 1899 19:30:00 GMT-0456 (hora estándar de Colombia)"
-            ]
-          ],
-          "descripcion": "Lunes y martes dígitos 1 y 2"
         }
       ]
     }
