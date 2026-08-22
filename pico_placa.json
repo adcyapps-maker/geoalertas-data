@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-00:02-v1",
+  "version": "2026-08-22-00:06-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -49,7 +49,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha IMPAR NO circulan placas 6, 7, 8, 9, 0 de Lunes a Viernes"
+          "descripcion": "Fecha IMPAR NO circulan placas 6, 7, 8, 9, 0 de lunes a viernes"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
@@ -74,7 +74,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "Fecha PAR NO circulan placas 1, 2, 3, 4, 5 de Lunes a Viernes"
+          "descripcion": "Fecha PAR NO circulan placas 1, 2, 3, 4, 5 de lunes a viernes"
         },
         {
           "tipo_vehiculo": "PARTICULAR",
