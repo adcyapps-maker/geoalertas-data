@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-21:42-v1",
+  "version": "2026-08-22-21:44-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -50,7 +50,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha IMPAR NO circulan placas terminadas en 6, 7, 8, 9, 0"
+          "descripcion": "CARRO PARTICULAR Fecha IMPAR NO circulan placas terminadas en 6, 7, 8, 9, 0 en horario"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -75,7 +75,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha PAR NO circulan placas terminadas en 1, 2, 3, 4, 5"
+          "descripcion": "CARRO PARTICULAR Fecha PAR NO circulan placas terminadas en 1, 2, 3, 4, 5 en horario"
         },
         {
           "tipo_vehiculo": "CARGA_PESADA",
@@ -109,7 +109,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "CAMION de carga peso superior a 8.500kg Fecha TODOS NO circulan placas terminadas en 0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+          "descripcion": "CAMION de carga peso superior a 8.500kg Fecha TODOS NO circulan placas terminadas en 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 en horario"
         }
       ]
     },
@@ -147,7 +147,7 @@
               "16:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha IMPAR NO circulan placas terminadas en 1, 3, 5, 7, 9"
+          "descripcion": "CARRO PARTICULAR Fecha IMPAR NO circulan placas terminadas en 1, 3, 5, 7, 9 en horario"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -168,7 +168,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha PAR NO circulan placas terminadas en 2, 4, 6, 8, 0"
+          "descripcion": "CARRO PARTICULAR Fecha PAR NO circulan placas terminadas en 2, 4, 6, 8, 0 en horario"
         }
       ]
     },
@@ -203,7 +203,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha LUNES NO circulan placas terminadas en 5, 8"
+          "descripcion": "CARRO PARTICULAR Fecha LUNES NO circulan placas terminadas en 5, 8 en horario"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -221,7 +221,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha MARTES NO circulan placas terminadas en 1, 4"
+          "descripcion": "CARRO PARTICULAR Fecha MARTES NO circulan placas terminadas en 1, 4 en horario"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -239,7 +239,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha MIERCOLES NO circulan placas terminadas en 0, 2"
+          "descripcion": "CARRO PARTICULAR Fecha MIERCOLES NO circulan placas terminadas en 0, 2 en horario"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -257,7 +257,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha JUEVES NO circulan placas terminadas en 3, 6"
+          "descripcion": "CARRO PARTICULAR Fecha JUEVES NO circulan placas terminadas en 3, 6 en horario"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -275,7 +275,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "CARRO PARTICULAR Fecha VIERNES NO circulan placas terminadas en 7, 9"
+          "descripcion": "CARRO PARTICULAR Fecha VIERNES NO circulan placas terminadas en 7, 9 en horario"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -293,7 +293,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "MOTOS 2T y 4T Fecha LUNES NO circulan placas terminadas en 5, 8"
+          "descripcion": "MOTOS 2T y 4T Fecha LUNES NO circulan placas terminadas en 5, 8 en horario"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -311,7 +311,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "MOTOS 2T y 4T Fecha MARTES NO circulan placas terminadas en 1, 4"
+          "descripcion": "MOTOS 2T y 4T Fecha MARTES NO circulan placas terminadas en 1, 4 en horario"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -329,7 +329,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "MOTOS 2T y 4T Fecha MIERCOLES NO circulan placas terminadas en 0, 2"
+          "descripcion": "MOTOS 2T y 4T Fecha MIERCOLES NO circulan placas terminadas en 0, 2 en horario"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -347,7 +347,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "MOTOS 2T y 4T Fecha JUEVES NO circulan placas terminadas en 3, 6"
+          "descripcion": "MOTOS 2T y 4T Fecha JUEVES NO circulan placas terminadas en 3, 6 en horario"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -365,7 +365,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "MOTOS 2T y 4T Fecha VIERNES NO circulan placas terminadas en 7, 9"
+          "descripcion": "MOTOS 2T y 4T Fecha VIERNES NO circulan placas terminadas en 7, 9 en horario"
         }
       ]
     },
