@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22-11:42-v1",
+  "version": "2026-08-22-21:01-v1",
   "app_min_version": "2.1.0",
   "cache_ttl_horas": 24,
   "notificacion_hora": "06:30",
@@ -50,7 +50,7 @@
               "21:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Fecha IMPAR NO circulan placas terminadas en 6, 7, 8, 9, 0 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -75,15 +75,41 @@
               "21:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Fecha PAR NO circulan placas terminadas en 1, 2, 3, 4, 5 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "CARGA_PESADA",
           "tipo_dia": "todos",
-          "dias": [],
-          "digitos": [],
-          "ventanas": [],
-          "descripcion": "NO circulan placas terminadas en"
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "digitos": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "08:00"
+            ],
+            [
+              "17:00",
+              "20:00"
+            ]
+          ],
+          "descripcion": "NO circulan placas terminadas en 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 Carga peso máx. superior a 8.500kg"
         }
       ]
     },
@@ -177,7 +203,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia LUNES NO circulan placas terminadas en 5, 8 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -195,7 +221,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia MARTES NO circulan placas terminadas en 1, 4 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -213,7 +239,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia MIERCOLES NO circulan placas terminadas en 0, 2 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -231,7 +257,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia JUEVES NO circulan placas terminadas en 3, 6 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "CARRO_PARTICULAR",
@@ -249,7 +275,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia VIERNES NO circulan placas terminadas en 7, 9 CARRO PARTICULAR"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -267,7 +293,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia LUNES NO circulan placas terminadas en 5, 8 MOTOS 2T y 4T"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -285,7 +311,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia MARTES NO circulan placas terminadas en 1, 4 MOTOS 2T y 4T"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -303,7 +329,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia MIERCOLES NO circulan placas terminadas en 0, 2 MOTOS 2T y 4T"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -321,7 +347,7 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia JUEVES NO circulan placas terminadas en 3, 6 MOTOS 2T y 4T"
         },
         {
           "tipo_vehiculo": "MOTO",
@@ -339,9 +365,105 @@
               "20:00"
             ]
           ],
-          "descripcion": "#REF!"
+          "descripcion": "Dia VIERNES NO circulan placas terminadas en 7, 9 MOTOS 2T y 4T"
         }
       ]
+    },
+    {
+      "id": "cali",
+      "nombre": "Cali",
+      "activo": true,
+      "centro": {
+        "lat": 4.6097,
+        "lng": -74.0817
+      },
+      "radio_metros": 50000,
+      "margen_proximidad_metros": 500,
+      "decreto": "Decreto 190/2019",
+      "solo_festivos": false,
+      "excepciones": [],
+      "comentario": "Lunes a Viernes de 05:00 a 20:01",
+      "restricciones": []
+    },
+    {
+      "id": "bucaramanga",
+      "nombre": "Bucaramanga",
+      "activo": true,
+      "centro": {
+        "lat": 4.6097,
+        "lng": -74.0817
+      },
+      "radio_metros": 50000,
+      "margen_proximidad_metros": 500,
+      "decreto": "Decreto 190/2019",
+      "solo_festivos": false,
+      "excepciones": [],
+      "comentario": "Lunes a Viernes de 05:00 a 20:01",
+      "restricciones": []
+    },
+    {
+      "id": "ibague",
+      "nombre": "Ibagué",
+      "activo": true,
+      "centro": {
+        "lat": 4.6097,
+        "lng": -74.0817
+      },
+      "radio_metros": 50000,
+      "margen_proximidad_metros": 500,
+      "decreto": "Decreto 190/2019",
+      "solo_festivos": false,
+      "excepciones": [],
+      "comentario": "Lunes a Viernes de 05:00 a 20:01",
+      "restricciones": []
+    },
+    {
+      "id": "cucuta",
+      "nombre": "Cúcuta",
+      "activo": true,
+      "centro": {
+        "lat": 4.6097,
+        "lng": -74.0817
+      },
+      "radio_metros": 50000,
+      "margen_proximidad_metros": 500,
+      "decreto": "Decreto 190/2019",
+      "solo_festivos": false,
+      "excepciones": [],
+      "comentario": "Lunes a Viernes de 05:00 a 20:01",
+      "restricciones": []
+    },
+    {
+      "id": "pasto",
+      "nombre": "Pasto",
+      "activo": true,
+      "centro": {
+        "lat": 4.6097,
+        "lng": -74.0817
+      },
+      "radio_metros": 50000,
+      "margen_proximidad_metros": 500,
+      "decreto": "Decreto 190/2019",
+      "solo_festivos": false,
+      "excepciones": [],
+      "comentario": "Lunes a Viernes de 05:00 a 20:01",
+      "restricciones": []
+    },
+    {
+      "id": "manizales",
+      "nombre": "Manizales",
+      "activo": true,
+      "centro": {
+        "lat": 4.6097,
+        "lng": -74.0817
+      },
+      "radio_metros": 50000,
+      "margen_proximidad_metros": 500,
+      "decreto": "Decreto 190/2019",
+      "solo_festivos": false,
+      "excepciones": [],
+      "comentario": "Lunes a Viernes de 05:00 a 20:01",
+      "restricciones": []
     }
   ]
 }
