@@ -1199,6 +1199,26 @@
             ]
           ],
           "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "paridad_dia_calendario",
+          "tipo_dia": "paridad",
+          "dias": [
+            6,
+            7,
+            8,
+            9,
+            0
+          ],
+          "digitos": [],
+          "ventanas": [
+            [
+              "06:00",
+              "21:00"
+            ]
+          ],
+          "aplica_festivos": false
         }
       ]
     },
