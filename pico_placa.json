@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-01-2220",
+  "version": "2026-09-01-2224",
   "app_min_version": "1.0.0",
   "cache_ttl_horas": 24,
   "aviso_global": {
@@ -1214,7 +1214,7 @@
           "digitos": [],
           "ventanas": [
             [
-              "06:00",
+              "08:00",
               "23:02"
             ]
           ],
