@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-02-0655",
+  "version": "2026-09-02-0707",
   "app_min_version": "1.0.0",
   "cache_ttl_horas": 24,
   "aviso_global": {
@@ -1231,52 +1231,6 @@
             ]
           ],
           "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "paridad_dia_calendario",
-          "tipo_dia": "paridad",
-          "dias": [
-            6,
-            7
-          ],
-          "digitos": [
-            0,
-            2,
-            4,
-            6,
-            8
-          ],
-          "ventanas": [
-            [
-              "12:00",
-              "16:00"
-            ]
-          ],
-          "aplica_festivos": true
-        },
-        {
-          "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "paridad_dia_calendario",
-          "tipo_dia": "paridad",
-          "dias": [
-            6,
-            7
-          ],
-          "digitos": [
-            1,
-            3,
-            5,
-            7,
-            9
-          ],
-          "ventanas": [
-            [
-              "16:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": true
         }
       ]
     },
@@ -2532,7 +2486,52 @@
       "vigencia_hasta": "",
       "comentario": "Sin restricción vehicular registrada",
       "solo_festivos": false,
-      "restricciones": []
+      "restricciones": [
+        {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ],
+          "ventanas": [
+            [
+              "12:00",
+              "16:00"
+            ]
+          ],
+          "aplica_festivos": true
+        },
+        {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            3,
+            5,
+            7,
+            9
+          ],
+          "ventanas": [
+            [
+              "16:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": true
+        }
+      ]
     },
     {
       "id": "copacabana",
@@ -2854,7 +2853,52 @@
       "vigencia_hasta": "",
       "comentario": "Sin restricción vehicular registrada",
       "solo_festivos": false,
-      "restricciones": []
+      "restricciones": [
+        {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ],
+          "ventanas": [
+            [
+              "12:00",
+              "16:00"
+            ]
+          ],
+          "aplica_festivos": true
+        },
+        {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            3,
+            5,
+            7,
+            9
+          ],
+          "ventanas": [
+            [
+              "16:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": true
+        }
+      ]
     },
     {
       "id": "cucuta",
@@ -7884,7 +7928,52 @@
       "vigencia_hasta": "",
       "comentario": "Sin restricción vehicular registrada",
       "solo_festivos": false,
-      "restricciones": []
+      "restricciones": [
+        {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ],
+          "ventanas": [
+            [
+              "12:00",
+              "16:00"
+            ]
+          ],
+          "aplica_festivos": true
+        },
+        {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            3,
+            5,
+            7,
+            9
+          ],
+          "ventanas": [
+            [
+              "16:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": true
+        }
+      ]
     },
     {
       "id": "soledad",
