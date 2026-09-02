@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-01-2224",
+  "version": "2026-09-01-2228",
   "app_min_version": "1.0.0",
   "cache_ttl_horas": 24,
   "aviso_global": {
@@ -1077,7 +1077,13 @@
             4,
             5
           ],
-          "digitos": [],
+          "digitos": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
           "ventanas": [
             [
               "06:00",
@@ -1205,17 +1211,23 @@
           "criterio": "paridad_dia_calendario",
           "tipo_dia": "paridad",
           "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "digitos": [
             6,
             7,
             8,
             9,
             0
           ],
-          "digitos": [],
           "ventanas": [
             [
-              "08:00",
-              "23:02"
+              "06:00",
+              "23:50"
             ]
           ],
           "aplica_festivos": false
