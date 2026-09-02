@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-01-v1",
+  "version": "2026-09-01-2218",
   "app_min_version": "1.0.0",
   "cache_ttl_horas": 24,
   "aviso_global": {
@@ -1215,7 +1215,7 @@
           "ventanas": [
             [
               "06:00",
-              "23:10"
+              "23:01"
             ]
           ],
           "aplica_festivos": false
