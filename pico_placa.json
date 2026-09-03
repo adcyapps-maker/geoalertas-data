@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-02-0744",
+  "version": "2026-09-03-0334",
   "app_min_version": "1.0.0",
   "cache_ttl_horas": 24,
   "aviso_global": {
@@ -364,44 +364,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -415,44 +377,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -478,44 +402,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -529,44 +415,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -594,6 +442,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -605,6 +529,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -782,44 +782,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -833,44 +795,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -896,44 +820,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -947,44 +833,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -1012,6 +860,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -1023,6 +947,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -1093,6 +1093,32 @@
           "aplica_festivos": false
         },
         {
+          "tipo_vehiculo": "CARRO_PARTICULAR",
+          "criterio": "paridad_dia_calendario",
+          "tipo_dia": "paridad",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "digitos": [
+            6,
+            7,
+            8,
+            9,
+            0
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "21:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
           "tipo_vehiculo": "TAXI",
           "criterio": "ultimo_digito",
           "tipo_dia": "monday",
@@ -1201,32 +1227,6 @@
           "ventanas": [
             [
               "05:30",
-              "21:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "paridad_dia_calendario",
-          "tipo_dia": "paridad",
-          "dias": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "digitos": [
-            6,
-            7,
-            8,
-            9,
-            0
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "21:00"
             ]
           ],
@@ -1271,45 +1271,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "09:00",
-              "13:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "09:00",
-              "13:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
           "dias": [
@@ -1347,25 +1309,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "09:00",
-              "13:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -1385,45 +1328,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "09:00",
-              "13:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "friday",
-          "dias": [
-            5
-          ],
-          "digitos": [
-            9,
-            0
-          ],
-          "ventanas": [
-            [
-              "09:00",
-              "13:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "friday",
           "dias": [
@@ -1451,6 +1356,101 @@
           "digitos": [
             3,
             4
+          ],
+          "ventanas": [
+            [
+              "09:00",
+              "13:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "09:00",
+              "13:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "09:00",
+              "13:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "09:00",
+              "13:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "09:00",
+              "13:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "friday",
+          "dias": [
+            5
+          ],
+          "digitos": [
+            9,
+            0
           ],
           "ventanas": [
             [
@@ -1860,44 +1860,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -1911,44 +1873,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -1974,44 +1898,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -2025,44 +1911,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -2090,6 +1938,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -2101,6 +2025,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -2282,25 +2282,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            9,
-            0
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -2319,25 +2300,6 @@
             [
               "18:00",
               "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
             ]
           ],
           "aplica_festivos": false
@@ -2366,25 +2328,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -2403,25 +2346,6 @@
             [
               "18:00",
               "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
             ]
           ],
           "aplica_festivos": false
@@ -2445,6 +2369,82 @@
             [
               "18:00",
               "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            9,
+            0
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
             ]
           ],
           "aplica_festivos": false
@@ -2570,44 +2570,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -2621,44 +2583,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -2684,44 +2608,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -2735,44 +2621,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -2800,6 +2648,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -2811,6 +2735,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -2945,61 +2945,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "08:30"
-            ],
-            [
-              "11:30",
-              "14:30"
-            ],
-            [
-              "17:30",
-              "19:30"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "08:30"
-            ],
-            [
-              "11:30",
-              "14:30"
-            ],
-            [
-              "17:30",
-              "19:30"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
           "dias": [
@@ -3053,61 +2999,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "08:30"
-            ],
-            [
-              "11:30",
-              "14:30"
-            ],
-            [
-              "17:30",
-              "19:30"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "08:30"
-            ],
-            [
-              "11:30",
-              "14:30"
-            ],
-            [
-              "17:30",
-              "19:30"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
           "dias": [
@@ -3143,6 +3035,114 @@
           "digitos": [
             9,
             0
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "08:30"
+            ],
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "17:30",
+              "19:30"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "08:30"
+            ],
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "17:30",
+              "19:30"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "08:30"
+            ],
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "17:30",
+              "19:30"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "08:30"
+            ],
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "17:30",
+              "19:30"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
           ],
           "ventanas": [
             [
@@ -3316,46 +3316,8 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            0,
-            1
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            2,
-            3
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
           "tipo_dia": "tuesday",
           "dias": [
             2
@@ -3392,46 +3354,8 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            4,
-            5
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            6,
-            7
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
           "tipo_dia": "thursday",
           "dias": [
             4
@@ -3458,6 +3382,82 @@
           "digitos": [
             8,
             9
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            0,
+            1
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            2,
+            3
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            4,
+            5
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            6,
+            7
           ],
           "ventanas": [
             [
@@ -3525,44 +3525,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -3576,44 +3538,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -3639,44 +3563,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -3690,44 +3576,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -3755,6 +3603,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -3766,6 +3690,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -3865,44 +3865,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -3916,44 +3878,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -3979,44 +3903,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -4030,44 +3916,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -4095,6 +3943,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -4106,6 +4030,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -4431,44 +4431,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -4482,44 +4444,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -4545,44 +4469,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -4596,44 +4482,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -4661,6 +4509,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -4672,6 +4596,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -4753,44 +4753,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -4804,44 +4766,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -4867,44 +4791,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -4918,44 +4804,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -4983,6 +4831,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -4994,6 +4918,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -5380,44 +5380,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -5431,44 +5393,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -5494,44 +5418,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -5545,44 +5431,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -5610,6 +5458,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -5621,6 +5545,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -5728,29 +5728,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "11:30"
-            ],
-            [
-              "14:00",
-              "17:30"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -5773,29 +5750,6 @@
             [
               "17:30",
               "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "11:30"
-            ],
-            [
-              "14:00",
-              "17:30"
             ]
           ],
           "aplica_festivos": false
@@ -5828,29 +5782,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "11:30"
-            ],
-            [
-              "14:00",
-              "17:30"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -5873,29 +5804,6 @@
             [
               "17:30",
               "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "11:30"
-            ],
-            [
-              "14:00",
-              "17:30"
             ]
           ],
           "aplica_festivos": false
@@ -5923,6 +5831,98 @@
             [
               "17:30",
               "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "11:30"
+            ],
+            [
+              "14:00",
+              "17:30"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "11:30"
+            ],
+            [
+              "14:00",
+              "17:30"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "11:30"
+            ],
+            [
+              "14:00",
+              "17:30"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "11:30"
+            ],
+            [
+              "14:00",
+              "17:30"
             ]
           ],
           "aplica_festivos": false
@@ -5989,45 +5989,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "18:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "18:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
           "dias": [
@@ -6065,45 +6027,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "18:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "08:00",
-              "18:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
           "dias": [
@@ -6131,6 +6055,82 @@
           "digitos": [
             9,
             0
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
           ],
           "ventanas": [
             [
@@ -6198,83 +6198,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            9,
-            0
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            9,
-            0
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            2,
-            3
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            2,
-            3
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
           "dias": [
@@ -6312,83 +6236,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            4,
-            5
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            4,
-            5
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            6,
-            7
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            6,
-            7
-          ],
-          "ventanas": [
-            [
-              "07:30",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
           "dias": [
@@ -6428,6 +6276,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            9,
+            0
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            2,
+            3
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            4,
+            5
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            6,
+            7
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -6435,6 +6359,82 @@
           "digitos": [
             8,
             1
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            9,
+            0
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            2,
+            3
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            4,
+            5
+          ],
+          "ventanas": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            6,
+            7
           ],
           "ventanas": [
             [
@@ -6502,46 +6502,8 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            0,
-            1
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            2,
-            3
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
           "tipo_dia": "tuesday",
           "dias": [
             2
@@ -6578,46 +6540,8 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            4,
-            5
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            6,
-            7
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
           "tipo_dia": "thursday",
           "dias": [
             4
@@ -6644,6 +6568,82 @@
           "digitos": [
             8,
             9
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            0,
+            1
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            2,
+            3
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            4,
+            5
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            6,
+            7
           ],
           "ventanas": [
             [
@@ -6837,45 +6837,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
           "dias": [
@@ -6913,45 +6875,7 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
           "dias": [
@@ -6979,6 +6903,82 @@
           "digitos": [
             9,
             0
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
           ],
           "ventanas": [
             [
@@ -7265,44 +7265,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -7316,44 +7278,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -7379,44 +7303,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "06:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -7430,44 +7316,6 @@
           "ventanas": [
             [
               "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "primer_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "TAXI",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "06:00",
               "20:00"
             ]
           ],
@@ -7495,6 +7343,82 @@
         {
           "tipo_vehiculo": "MOTO",
           "criterio": "primer_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "primer_digito",
           "tipo_dia": "friday",
           "dias": [
             5
@@ -7506,6 +7430,82 @@
           "ventanas": [
             [
               "05:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "06:00",
+              "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "TAXI",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "06:00",
               "20:00"
             ]
           ],
@@ -7595,25 +7595,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -7636,25 +7617,6 @@
             [
               "17:00",
               "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "19:00"
             ]
           ],
           "aplica_festivos": false
@@ -7687,25 +7649,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "19:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -7728,25 +7671,6 @@
             [
               "17:00",
               "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            7,
-            8
-          ],
-          "ventanas": [
-            [
-              "07:00",
-              "19:00"
             ]
           ],
           "aplica_festivos": false
@@ -7774,6 +7698,82 @@
             [
               "17:00",
               "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "19:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            7,
+            8
+          ],
+          "ventanas": [
+            [
+              "07:00",
+              "19:00"
             ]
           ],
           "aplica_festivos": false
@@ -8244,25 +8244,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "monday",
-          "dias": [
-            1
-          ],
-          "digitos": [
-            9,
-            0
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "tuesday",
@@ -8281,25 +8262,6 @@
             [
               "18:00",
               "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "tuesday",
-          "dias": [
-            2
-          ],
-          "digitos": [
-            1,
-            2
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
             ]
           ],
           "aplica_festivos": false
@@ -8328,25 +8290,6 @@
           "aplica_festivos": false
         },
         {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "wednesday",
-          "dias": [
-            3
-          ],
-          "digitos": [
-            3,
-            4
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
           "tipo_vehiculo": "CARRO_PARTICULAR",
           "criterio": "ultimo_digito",
           "tipo_dia": "thursday",
@@ -8365,25 +8308,6 @@
             [
               "18:00",
               "20:00"
-            ]
-          ],
-          "aplica_festivos": false
-        },
-        {
-          "tipo_vehiculo": "MOTO",
-          "criterio": "ultimo_digito",
-          "tipo_dia": "thursday",
-          "dias": [
-            4
-          ],
-          "digitos": [
-            5,
-            6
-          ],
-          "ventanas": [
-            [
-              "05:00",
-              "23:00"
             ]
           ],
           "aplica_festivos": false
@@ -8407,6 +8331,82 @@
             [
               "18:00",
               "20:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "monday",
+          "dias": [
+            1
+          ],
+          "digitos": [
+            9,
+            0
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "tuesday",
+          "dias": [
+            2
+          ],
+          "digitos": [
+            1,
+            2
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "wednesday",
+          "dias": [
+            3
+          ],
+          "digitos": [
+            3,
+            4
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
+            ]
+          ],
+          "aplica_festivos": false
+        },
+        {
+          "tipo_vehiculo": "MOTO",
+          "criterio": "ultimo_digito",
+          "tipo_dia": "thursday",
+          "dias": [
+            4
+          ],
+          "digitos": [
+            5,
+            6
+          ],
+          "ventanas": [
+            [
+              "05:00",
+              "23:00"
             ]
           ],
           "aplica_festivos": false
