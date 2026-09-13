@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "titulo": "Términos y Condiciones de Uso.",
   "subtitulo": "ADCY Apps",
   "fecha": "Versión 1.0 — Septiembre 2026",
@@ -7,39 +7,39 @@
   "secciones": [
     {
       "titulo": "1. Descripción del servicio",
-      "contenido": "Esta aplicación para Android alerta al conductor sobre la proximidad de cámaras de fotomultas mediante ubicación geográfica en tiempo real. Funciona en segundo plano y en conjunto con aplicaciones de navegación como Waze o Google Maps.\n\nEs un complemento de navegación, no un reemplazo de las aplicaciones de mapas. El uso de esta aplicación no reemplaza la atención del conductor ni exime del cumplimiento del Código Nacional de Tránsito."
+      "contenido": "Esta aplicación para Android alerta al conductor sobre la proximidad de cámaras de fotomultas mediante ubicación geográfica en tiempo real. Funciona en segundo plano y en conjunto con aplicaciones de navegación como Waze o Google Maps o la seleccionada en el menu de configuracion.\n\nEs un complemento de navegación, no un reemplazo de las aplicaciones de mapas. El uso de esta aplicación no reemplaza la atención del conductor ni exime del cumplimiento del Código Nacional de Tránsito."
     },
     {
       "titulo": "2. Período de prueba gratuita",
-      "contenido": "Al instalar por primera vez, el usuario tendrá acceso gratuito y completo a todas las funciones durante 30 días calendario, contados a partir de la fecha de instalación.\n\nAl vencer el período de prueba, la aplicación se bloqueará completamente hasta que el usuario active una suscripción de pago. No se perderán configuraciones ni datos guardados localmente.\n\nEl período de prueba aplica una sola vez por dispositivo y no es transferible."
+      "contenido": "Al instalar por primera vez, el usuario tendrá acceso gratuito y completo a todas las funciones durante 15 días calendario, contados a partir de la fecha de instalación.\n\nAl vencer el período de prueba, la aplicación se bloqueará completamente hasta que el usuario active una suscripción de pago. No se perderán configuraciones ni datos guardados localmente.\n\nEl período de prueba aplica una sola vez por dispositivo y no es transferible."
     },
     {
       "titulo": "3. Planes de suscripción",
-      "contenido": "Ofrece los siguientes planes de suscripción con precios en pesos colombianos (COP) con IVA incluido:\n\n• Plan Mensual — acceso completo por 30 días.\n• Plan Semestral — acceso completo por 6 meses.\n• Plan Anual — acceso completo por 12 meses.\n\nLos precios vigentes se muestran dentro de la aplicación. Pueden ajustarse en futuras versiones con al menos 30 días de anticipación."
+      "contenido": "Ofrece los siguientes planes de suscripción con precios en pesos colombianos (COP) con IVA incluido:\n\n• Plan Mensual — acceso completo por 30 días.\n• Plan Semestral — acceso completo por 6 meses.\n• Plan Anual — acceso completo por 12 meses.\n\nLos precios vigentes se muestran dentro de la aplicación. Pueden ajustarse en futuras versiones con al menos 30 días de anticipación previa socializacion desde Play Store."
     },
     {
       "titulo": "4. Pagos y facturación",
-      "contenido": "Todos los pagos se procesan de forma segura a través de Google Play Store. ADCY Apps no almacena ni tiene acceso a los datos de pago del usuario.\n\nLa suscripción se activa de forma inmediata tras la confirmación del pago. La renovación NO es automática — el usuario debe renovar manualmente al vencer el período contratado."
+      "contenido": "Todos los pagos se procesan de forma segura a través de Google Play Store. Esta aplicacion no almacena ni tiene acceso a los datos de pago del usuario.\n\nLa suscripción se activa de forma inmediata tras la confirmación del pago. La renovación NO es automática — el usuario debe renovar manualmente al vencer el período contratado."
     },
     {
       "titulo": "5. Política de reembolsos",
-      "contenido": "Google Play Store permite solicitar reembolso dentro de las 48 horas siguientes a la compra. Pasado ese plazo, ADCY Apps no realiza reembolsos por períodos no utilizados, salvo:\n\n• Fallo técnico grave atribuible a la aplicación.\n• Cobro duplicado por error del sistema de pagos.\n\nPara solicitar reembolso escribe a adcyapps@gmail.com con el asunto 'Solicitud de reembolso' y el comprobante de compra."
+      "contenido": "Google Play Store permite solicitar reembolso dentro de las 48 horas siguientes a la compra. Pasado ese plazo, no realiza reembolsos por períodos no utilizados, salvo:\n\n• Fallo técnico grave atribuible a la aplicación.\n• Cobro duplicado por error del sistema de pagos.\n\nPara solicitar reembolso escribe a adcyapps@gmail.com con el asunto \"Solicitud de reembolso\" y el comprobante de compra."
     },
     {
       "titulo": "6. Condiciones de uso",
-      "contenido": "El usuario se compromete a:\n\n• Usar la aplicación únicamente como conductor o a través de un acompañante. Nunca manipules el dispositivo mientras conduces.\n• No utilizar esta app para evadir controles de seguridad vial. Es una herramienta de asistencia, no un medio para infringir la ley.\n• Cumplir con todas las normas de tránsito vigentes en Colombia.\n• No reproducir, distribuir, modificar ni realizar ingeniería inversa sobre la aplicación.\n• No compartir su suscripción con otros usuarios. La licencia es personal e intransferible."
+      "contenido": "El usuario se compromete a:\n\n• Usar la aplicación únicamente como conductor o a través de un acompañante. Nunca manipules el dispositivo mientras conduces.\n• No utilizar esta app para evadir controles de seguridad vial. Es una herramienta de asistencia en via, no un medio para infringir la ley.\n• Cumplir con todas las normas de tránsito vigentes en Colombia.\n• No reproducir, distribuir, modificar ni realizar ingeniería inversa sobre la aplicación.\n• No compartir su suscripción con otros usuarios. La licencia es personal e intransferible."
     },
     {
       "titulo": "7. Privacidad y datos",
-      "contenido": "La aplicación no recopila, almacena ni transmite ningún dato personal. Todo el procesamiento ocurre exclusivamente en el dispositivo del usuario.\n\nPermisos requeridos y su propósito:\n• Ubicación (primer plano y fondo): detectar proximidad a cámaras en tiempo real.\n• Superposición sobre otras apps: mostrar alertas mientras usas tu app de navegación.\n• Estadísticas de uso: detectar cuándo tu app de navegación está en pantalla. No se registra ni transmite ningún dato.\n• Arranque automático: reactivar el servicio tras reiniciar el dispositivo."
+      "contenido": "La aplicación no recopila, almacena ni transmite ningún dato personal. Todo el procesamiento ocurre exclusivamente en el dispositivo del usuario.\n\nPermisos requeridos y su propósito:\n• Ubicación (primer plano y fondo): detectar la distancia a cámaras fotomultas activas y/o autorizadas para tal fin en tiempo real en el territorio colombiano.\n• Superposición sobre otras apps: mostrar alertas mientras usas tu app de navegación.\n• Estadísticas de uso: detectar cuándo tu app de navegación está en pantalla. No se registra ni transmite ningún dato.\n• Arranque automático o manual: reactivar el servicio tras reiniciar el dispositivo."
     },
     {
       "titulo": "8. Archivos GPX",
-      "contenido": "Si activas la grabación de rutas, los archivos GPX se guardan localmente en la carpeta Documentos/sDCopilot del dispositivo. ADCY Apps no tiene acceso a dichos archivos. Para eliminarlos, bórralos manualmente o desinstala la aplicación."
+      "contenido": "Si activas la grabación de rutas, los archivos GPX se guardan localmente en la carpeta Documentos del dispositivo. Esta aplicacion no tiene acceso a dichos archivos. Para eliminarlos, bórralos manualmente y desinstala la aplicación."
     },
     {
       "titulo": "9. Limitación de responsabilidad",
-      "contenido": "La aplicación se proporciona 'tal como está'. ADCY Apps no garantiza:\n\n• La exactitud o actualización permanente de la base de datos de cámaras. La información puede presentar retrasos o inexactitudes por cambios del ANSV o entidades municipales.\n• El funcionamiento ininterrumpido de la aplicación.\n• Que el uso de la app exima al usuario de fotomultas, comparendos o sanciones de tránsito.\n\nEl usuario es el único responsable de su conducción y del cumplimiento del Código Nacional de Tránsito (Ley 769 de 2002 y sus modificaciones). ADCY Apps no asume responsabilidad por accidentes, multas, comparendos, daños o perjuicios derivados del uso de la aplicación."
+      "contenido": "La aplicación se proporciona \"tal como está\". ADCY Apps no garantiza:\n\n• La exactitud o actualización permanente de la ubicacion geografica de cámaras. La información puede presentar retrasos o inexactitudes desde las entidades municipales, departamentales o nacionales.\n• El funcionamiento ininterrumpido de la aplicación.\n• Que el uso de la app exima al usuario de fotomultas, comparendos o sanciones de tránsito.\n\nEl usuario es el único responsable de su conducción y del cumplimiento del Código Nacional de Tránsito (Ley 769 de 2002 y sus modificaciones). ADCY Apps no asume responsabilidad por accidentes, multas, fotomultas, fotocomparendos, comparendos, o culquier tipo de sancion por infringir las normas de transito, daños o perjuicios derivados del uso de la aplicación."
     },
     {
       "titulo": "10. Actualizaciones de la aplicación",
@@ -47,7 +47,7 @@
     },
     {
       "titulo": "11. Propiedad intelectual",
-      "contenido": "El nombre, logotipo, código fuente, diseño y contenido de esta aplicación son propiedad exclusiva de ADCY Apps, protegidos por las leyes de propiedad intelectual aplicables en Colombia. Queda prohibida su reproducción o uso sin autorización expresa."
+      "contenido": "El nombre, logotipo, código fuente, diseño y contenido de esta aplicación son propiedad exclusiva de ADCY Apps, protegidos por las leyes de propiedad intelectual aplicables en el mundo. Queda prohibida su reproducción o uso sin autorización expresa."
     },
     {
       "titulo": "12. Servicios de terceros",
@@ -55,11 +55,11 @@
     },
     {
       "titulo": "13. Menores de edad",
-      "contenido": "Esta aplicación no está dirigida a menores de 16 años, dado que su uso implica la conducción de un vehículo. Al instalarla, el usuario confirma tener la edad mínima legal para conducir en Colombia."
+      "contenido": "Esta aplicación no está dirigida a menores de 14 años, dado que su uso implica la conducción de un vehículo. Al instalarla, el usuario confirma tener la edad mínima legal para conducir en Colombia."
     },
     {
       "titulo": "14. Modificaciones a los términos",
-      "contenido": "ADCY Apps se reserva el derecho de actualizar estos Términos en cualquier momento. Los cambios serán notificados mediante actualización del contenido remoto. El uso continuado de la app tras la aceptación de los nuevos términos implica su conformidad."
+      "contenido": "ADCY Apps se reserva el derecho de actualizar estos Términos en cualquier momento. Los cambios serán notificados con al menos 30 días de anticipación mediante actualización en Google Play Store. El uso continuado de la app tras la publicación de cambios implica la aceptación de los nuevos términos."
     },
     {
       "titulo": "15. Terminación del servicio",
@@ -70,8 +70,12 @@
       "contenido": "Estos Términos se rigen por las leyes de la República de Colombia. Cualquier controversia se resolverá conforme a la legislación colombiana vigente, incluyendo la Ley 1480 de 2011 (Estatuto del Consumidor)."
     },
     {
-      "titulo": "17. Contacto",
-      "contenido": "Para consultas sobre estos Términos o solicitudes de reembolso:\n\nADCY Apps\nadcyapps@gmail.com"
+      "titulo": "17. Gestión de Documentos Vehiculares y Recordatorios Automáticos",
+      "contenido": "1. Funcionalidades de Registro\nLa aplicación permite al usuario registrar múltiples vehículos y asociar a cada uno las fechas de vencimiento de documentos relacionados (licencia de conducción, SOAT, revisión técnica, impuesto de circulación, u otros). El usuario es responsable exclusivo de la precisión y veracidad de las fechas ingresadas en el sistema.\n\n2. Sistema de Notificaciones\nLa aplicación genera recordatorios automáticos programados con la siguiente periodicidad:\n• 30 días previos al vencimiento\n• 7 días previos al vencimiento\n• 1 día previo al vencimiento\n• Día del vencimiento\n\nEstos recordatorios se envían a través del sistema de notificaciones del dispositivo y constituyen avisos informativos únicamente.\n\n3. Limitaciones de Responsabilidad\nADCY Apps no asume responsabilidad por:\na) Errores u omisiones en la información de vencimiento ingresada por el usuario\nb) Incumplimiento en la renovación oportuna de documentos vehiculares\nc) Sanciones administrativas, infracciones de tránsito, o multas derivadas del vencimiento de documentos\nd) Fallas en la entrega, retraso o no recepción de notificaciones\ne) Mal funcionamiento de la programación de alertas\n\nEl usuario reconoce que la aplicación es una herramienta de asistencia cuya función es facilitar la gestión documental, mas no reemplaza la obligación legal y personal de mantener documentación vigente conforme a la normativa de tránsito aplicable.\n\n4. Protección de Datos\nLa aplicación NO solicita, almacena, ni procesa:\n• Números de documento de identidad\n• Fotografías de documentos\n• Registros de licencia o placas vehiculares\n• Datos personales o biométricos\n\nSe recopila únicamente la información de fecha de vencimiento asociada a cada vehículo registrado, almacenada localmente en el dispositivo del usuario.\n\nNo se exporta a ningun servidor la informacion vehicular, ubicacion del usuario o recorridos relizados, todo es almacenamiento local."
+    },
+    {
+      "titulo": "18. Contacto",
+      "contenido": "Para consultas sobre estos Términos o Solicitudes o Sugerencias:\n\nADCY Apps\nadcyapps@gmail.com"
     }
   ],
   "pie": "© 2026 ADCY Apps. Todos los derechos reservados. Uso exclusivo en Colombia."
