@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "titulo": "Términos y Condiciones de Uso.",
   "subtitulo": "ADCY Apps",
   "fecha": "Versión 1.0 — Septiembre 2026",
@@ -7,7 +7,7 @@
   "secciones": [
     {
       "titulo": "1. Descripción del servicio",
-      "contenido": "Esta aplicación para Android alerta al conductor sobre la proximidad de cámaras de fotomultas mediante ubicación geográfica en tiempo real. Funciona en segundo plano y en conjunto con aplicaciones de navegación como Waze o Google Maps o la seleccionada en el menu de configuracion.\n\nEs un complemento de navegación, no un reemplazo de las aplicaciones de mapas. El uso de esta aplicación no reemplaza la atención del conductor ni exime del cumplimiento del Código Nacional de Tránsito."
+      "contenido": "Esta aplicación para Android alerta al conductor sobre la proximidad de cámaras de fotodeteccion fijas autorizadas  mediante ubicación geográfica en tiempo real. Funciona en segundo plano y en conjunto con aplicaciones de navegación como Waze o Google Maps o la seleccionada en el menu de configuracion.\n\nEs un complemento de navegación, no un reemplazo de las aplicaciones de mapas. El uso de esta aplicación no reemplaza la atención del conductor ni exime del cumplimiento del Código Nacional de Tránsito."
     },
     {
       "titulo": "2. Período de prueba gratuita",
@@ -31,7 +31,7 @@
     },
     {
       "titulo": "7. Privacidad y datos",
-      "contenido": "La aplicación no recopila, almacena ni transmite ningún dato personal. Todo el procesamiento ocurre exclusivamente en el dispositivo del usuario.\n\nPermisos requeridos y su propósito:\n• Ubicación (primer plano y fondo): detectar la distancia a cámaras fotomultas activas y/o autorizadas para tal fin en tiempo real en el territorio colombiano.\n• Superposición sobre otras apps: mostrar alertas mientras usas tu app de navegación.\n• Estadísticas de uso: detectar cuándo tu app de navegación está en pantalla. No se registra ni transmite ningún dato.\n• Arranque automático o manual: reactivar el servicio tras reiniciar el dispositivo."
+      "contenido": "La aplicación no recopila, almacena ni transmite ningún dato personal. Todo el procesamiento ocurre exclusivamente en el dispositivo del usuario.\n\nPermisos requeridos y su propósito:\n• Ubicación (primer plano y fondo): detectar la distancia a cámaras de fotodeteccion fijas autorizadas y/o activas para tal fin en tiempo real en el territorio colombiano.\n• Superposición sobre otras apps: mostrar alertas mientras usas tu app de navegación.\n• Estadísticas de uso: detectar cuándo tu app de navegación está en pantalla. No se registra ni transmite ningún dato.\n• Arranque automático o manual: reactivar el servicio tras reiniciar el dispositivo."
     },
     {
       "titulo": "8. Archivos GPX",
@@ -39,7 +39,7 @@
     },
     {
       "titulo": "9. Limitación de responsabilidad",
-      "contenido": "La aplicación se proporciona \"tal como está\". ADCY Apps no garantiza:\n\n• La exactitud o actualización permanente de la ubicacion geografica de cámaras. La información puede presentar retrasos o inexactitudes desde las entidades municipales, departamentales o nacionales.\n• El funcionamiento ininterrumpido de la aplicación.\n• Que el uso de la app exima al usuario de fotomultas, comparendos o sanciones de tránsito.\n\nEl usuario es el único responsable de su conducción y del cumplimiento del Código Nacional de Tránsito (Ley 769 de 2002 y sus modificaciones). ADCY Apps no asume responsabilidad por accidentes, multas, fotomultas, fotocomparendos, comparendos, o culquier tipo de sancion por infringir las normas de transito, daños o perjuicios derivados del uso de la aplicación."
+      "contenido": "La aplicación se proporciona \"tal como está\". ADCY Apps no garantiza:\n\n• La exactitud o actualización permanente de la ubicacion geografica de cámaras de fotodeteccion fijas autorizadas. La información puede presentar retrasos o inexactitudes desde las entidades municipales, departamentales o nacionales.\n• El funcionamiento ininterrumpido de la aplicación.\n• Que el uso de la app exima al usuario de fotomultas, comparendos o sanciones de tránsito.\n\nEl usuario es el único responsable de su conducción y del cumplimiento del Código Nacional de Tránsito (Ley 769 de 2002 y sus modificaciones). ADCY Apps no asume responsabilidad por accidentes, multas, fotomultas, fotocomparendos, comparendos, o culquier tipo de sancion por infringir las normas de transito, daños o perjuicios derivados del uso de la aplicación."
     },
     {
       "titulo": "10. Actualizaciones de la aplicación",
