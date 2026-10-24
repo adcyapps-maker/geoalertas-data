@@ -1,8 +1,8 @@
 {
-  "version": 6,
+  "version": 7,
   "titulo": "Términos y Condiciones de Uso.",
   "subtitulo": "ADCY Apps",
-  "fecha": "Versión 1.0 — Septiembre 2026",
+  "fecha": "Versión 1.0 — Octubre 2026",
   "intro": "Al descargar, instalar o usar esta aplicación, aceptas los presentes Términos y Condiciones de Uso. Si no estás de acuerdo con alguno de ellos, no instales ni uses la aplicación. Esta aplicación está disponible exclusivamente para usuarios en Colombia.",
   "secciones": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "titulo": "8. Archivos GPX",
-      "contenido": "Si activas la grabación de rutas, los archivos GPX se guardan localmente en la carpeta Documentos del dispositivo. Esta aplicacion no tiene acceso a dichos archivos. Para eliminarlos, bórralos manualmente y desinstala la aplicación."
+      "contenido": "Agregamos una Caja Negra donde se registraran frenadas inesperadas o posibles coliciones, se generara un archivo local con la informacion del ultimo minuto y un minuto posterior, esta opcion va activa todo el tiempo, no se puede desactivar, caso contrario, puedes elegir si activas la grabación de rutas, los archivos GPX se guardan localmente en la carpeta Documentos del dispositivo. Esta aplicacion no tiene acceso a dichos archivos. Para eliminarlos, bórralos manualmente y desinstala la aplicación."
     },
     {
       "titulo": "9. Limitación de responsabilidad",
